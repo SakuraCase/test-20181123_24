@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <vue-sample hoge="hoge"/>
+    <Parent/>
   </div>
 </template>
 
 <script>
 import VueSample from './components/VueSample.vue'
+import Parent from './components/Parent.vue'
 
 export default {
   name: 'app',
   components: {
-    VueSample
+    VueSample,
+    Parent
   }
 }
 </script>
